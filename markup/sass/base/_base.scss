@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  @include responsive-mode(normal) {
+    font-size: 56.25%;
+  }
+  @include responsive-mode(large) {
+    font-size: 50%;
+  }
+  @include responsive-mode(small) {
+    font-size: 50%;
+  }
+  @include responsive-mode(extreme) {
+    font-size: 65%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: $font-primary !important;
+  background-color: $color-background;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+* {
+  scrollbar-width: normal;
+  scrollbar-color: $color-primary lighten($color-background, 7);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar:hover {
+  width: 1.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: lighten($color-background, 7); 
+  border-radius: 2rem;
+  margin: 2rem 0;
+  padding: 2px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: $color-primary;
+  border-radius: 2rem;
+  border: 2px solid lighten($color-background, 7);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darken($color: $color-primary, $amount: 6); 
+}

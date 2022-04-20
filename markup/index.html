@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./sass/main.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neuton:wght@200;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts -->
+  </head>
+  <body>
+    <!-- <div class="nav-container">
+      <ul class="navbar">
+        <li><span>About Me</span></li>
+        <li><span>My Skills</span></li>
+        <li class="active"><span>Experience</span></li>
+        <li><span>Works</span></li>
+        <li><span>Contact Me</span></li>
+      </ul>
+    </div> -->
+
+    <!-- <div class="contact-me-button-container">
+      <button class="action-btn">Contact Me</button>
+    </div> -->
+    <div class="hero-container">
+      <div class="hero-wrapper">
+        <div class="hero-section-left">
+          <p class="hello-text">Hey <span class="wave-emoji">👋🏻</span> I 'm</p>
+          <p class="name">RAHUL,</p>
+          <p class="designation">&lt;WebDeveloper / &gt;</p>
+        </div>
+        <div class="hero-section-right">
+          <div class="hero-image-wrapper">
+            <img src="./assets/hero.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Me section -->
+    <div class="about-me-container">
+      <div class="about-me-wrapper">
+        <div class="img-container">
+          <div class="img-wrapper">
+            <img src="./assets/profile.jpg" alt="" />
+          </div>
+        </div>
+        <div class="details-container">
+          <p>
+            I am a 25 year old Web Developer concentrating mainly on front end
+            technologies like HTML, CSS and React JS. I am passionate about
+            creating great user interfaces from wireframes. I had a great desire
+            to start coding back on my school days itslef. I have been working
+            for 4 years now and had worked as full time developer for various
+            firms.
+          </p>
+          <p>
+            I specialize in creating sites for individuals and small businesses.
+            You shouldn’t have to settle for cheap solutions or generic
+            templates. I provide custom designs at afforable prices. Your
+            website is the first impression your customers will get, so make
+            sure it’s a good one. Since my time is split between a few different
+            things, I’m not able to take on every project I’d like to, but I'm
+            always looking for fun work. Take a look at my portfolio below, if
+            you think I’d be a good match send me an email.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills section -->
+    <div class="skills-container">
+      <div class="skills-wrapper">
+        <div class="skills-progress-container">
+          <div class="skills-layout--left">
+            <div class="skills-layout__row">
+              <p>HTML</p>
+              <div class="progress-container">
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+            <div class="skills-layout__row">
+              <p>CSS</p>
+              <div class="progress-container">
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+            <div class="skills-layout__row">
+              <p>JavaScript</p>
+              <div class="progress-container">
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+            <div class="skills-layout__row">
+              <p>React JS</p>
+              <div class="progress-container">
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-layout--right">
+            <div class="skills-layout__row">
+              <p>SCSS</p>
+              <div class="progress-container">
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+            <div class="skills-layout__row">
+              <p>React Native</p>
+              <div class="progress-container">
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+            <div class="skills-layout__row">
+              <p>Node JS</p>
+              <div class="progress-container">
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+            <div class="skills-layout__row">
+              <p>MongoDB</p>
+              <div class="progress-container">
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="other-tools-title">
+          Other important Javascript tools and packages include:
+        </p>
+        <div class="other-tools-container">
+          <div class="tool-wrapper">
+            <div class="icon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 1.875C7.75195 1.875 1.875 7.75195 1.875 15C1.875 22.248 7.75195 28.125 15 28.125C22.248 28.125 28.125 22.248 28.125 15C28.125 7.75195 22.248 1.875 15 1.875ZM20.6689 10.7139L14.499 19.2686C14.4128 19.3889 14.2991 19.487 14.1674 19.5546C14.0357 19.6223 13.8898 19.6576 13.7417 19.6576C13.5936 19.6576 13.4477 19.6223 13.316 19.5546C13.1843 19.487 13.0706 19.3889 12.9844 19.2686L9.33105 14.2061C9.21973 14.0508 9.33105 13.834 9.52148 13.834H10.8955C11.1943 13.834 11.4785 13.9775 11.6543 14.2236L13.7402 17.1182L18.3457 10.7314C18.5215 10.4883 18.8027 10.3418 19.1045 10.3418H20.4785C20.6689 10.3418 20.7803 10.5586 20.6689 10.7139V10.7139Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div class="tool-name">Axios</div>
+          </div>
+
+          <div class="tool-wrapper">
+            <div class="icon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 1.875C7.75195 1.875 1.875 7.75195 1.875 15C1.875 22.248 7.75195 28.125 15 28.125C22.248 28.125 28.125 22.248 28.125 15C28.125 7.75195 22.248 1.875 15 1.875ZM20.6689 10.7139L14.499 19.2686C14.4128 19.3889 14.2991 19.487 14.1674 19.5546C14.0357 19.6223 13.8898 19.6576 13.7417 19.6576C13.5936 19.6576 13.4477 19.6223 13.316 19.5546C13.1843 19.487 13.0706 19.3889 12.9844 19.2686L9.33105 14.2061C9.21973 14.0508 9.33105 13.834 9.52148 13.834H10.8955C11.1943 13.834 11.4785 13.9775 11.6543 14.2236L13.7402 17.1182L18.3457 10.7314C18.5215 10.4883 18.8027 10.3418 19.1045 10.3418H20.4785C20.6689 10.3418 20.7803 10.5586 20.6689 10.7139V10.7139Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div class="tool-name">Redux</div>
+          </div>
+
+          <div class="tool-wrapper">
+            <div class="icon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 1.875C7.75195 1.875 1.875 7.75195 1.875 15C1.875 22.248 7.75195 28.125 15 28.125C22.248 28.125 28.125 22.248 28.125 15C28.125 7.75195 22.248 1.875 15 1.875ZM20.6689 10.7139L14.499 19.2686C14.4128 19.3889 14.2991 19.487 14.1674 19.5546C14.0357 19.6223 13.8898 19.6576 13.7417 19.6576C13.5936 19.6576 13.4477 19.6223 13.316 19.5546C13.1843 19.487 13.0706 19.3889 12.9844 19.2686L9.33105 14.2061C9.21973 14.0508 9.33105 13.834 9.52148 13.834H10.8955C11.1943 13.834 11.4785 13.9775 11.6543 14.2236L13.7402 17.1182L18.3457 10.7314C18.5215 10.4883 18.8027 10.3418 19.1045 10.3418H20.4785C20.6689 10.3418 20.7803 10.5586 20.6689 10.7139V10.7139Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div class="tool-name">Redux Saga</div>
+          </div>
+
+          <div class="tool-wrapper">
+            <div class="icon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 1.875C7.75195 1.875 1.875 7.75195 1.875 15C1.875 22.248 7.75195 28.125 15 28.125C22.248 28.125 28.125 22.248 28.125 15C28.125 7.75195 22.248 1.875 15 1.875ZM20.6689 10.7139L14.499 19.2686C14.4128 19.3889 14.2991 19.487 14.1674 19.5546C14.0357 19.6223 13.8898 19.6576 13.7417 19.6576C13.5936 19.6576 13.4477 19.6223 13.316 19.5546C13.1843 19.487 13.0706 19.3889 12.9844 19.2686L9.33105 14.2061C9.21973 14.0508 9.33105 13.834 9.52148 13.834H10.8955C11.1943 13.834 11.4785 13.9775 11.6543 14.2236L13.7402 17.1182L18.3457 10.7314C18.5215 10.4883 18.8027 10.3418 19.1045 10.3418H20.4785C20.6689 10.3418 20.7803 10.5586 20.6689 10.7139V10.7139Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div class="tool-name">React Hook Form</div>
+          </div>
+
+          <div class="tool-wrapper">
+            <div class="icon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 1.875C7.75195 1.875 1.875 7.75195 1.875 15C1.875 22.248 7.75195 28.125 15 28.125C22.248 28.125 28.125 22.248 28.125 15C28.125 7.75195 22.248 1.875 15 1.875ZM20.6689 10.7139L14.499 19.2686C14.4128 19.3889 14.2991 19.487 14.1674 19.5546C14.0357 19.6223 13.8898 19.6576 13.7417 19.6576C13.5936 19.6576 13.4477 19.6223 13.316 19.5546C13.1843 19.487 13.0706 19.3889 12.9844 19.2686L9.33105 14.2061C9.21973 14.0508 9.33105 13.834 9.52148 13.834H10.8955C11.1943 13.834 11.4785 13.9775 11.6543 14.2236L13.7402 17.1182L18.3457 10.7314C18.5215 10.4883 18.8027 10.3418 19.1045 10.3418H20.4785C20.6689 10.3418 20.7803 10.5586 20.6689 10.7139V10.7139Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div class="tool-name">Bootstrap</div>
+          </div>
+
+          <div class="tool-wrapper">
+            <div class="icon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 1.875C7.75195 1.875 1.875 7.75195 1.875 15C1.875 22.248 7.75195 28.125 15 28.125C22.248 28.125 28.125 22.248 28.125 15C28.125 7.75195 22.248 1.875 15 1.875ZM20.6689 10.7139L14.499 19.2686C14.4128 19.3889 14.2991 19.487 14.1674 19.5546C14.0357 19.6223 13.8898 19.6576 13.7417 19.6576C13.5936 19.6576 13.4477 19.6223 13.316 19.5546C13.1843 19.487 13.0706 19.3889 12.9844 19.2686L9.33105 14.2061C9.21973 14.0508 9.33105 13.834 9.52148 13.834H10.8955C11.1943 13.834 11.4785 13.9775 11.6543 14.2236L13.7402 17.1182L18.3457 10.7314C18.5215 10.4883 18.8027 10.3418 19.1045 10.3418H20.4785C20.6689 10.3418 20.7803 10.5586 20.6689 10.7139V10.7139Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div class="tool-name">Moment JS</div>
+          </div>
+
+          <div class="tool-wrapper">
+            <div class="icon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 1.875C7.75195 1.875 1.875 7.75195 1.875 15C1.875 22.248 7.75195 28.125 15 28.125C22.248 28.125 28.125 22.248 28.125 15C28.125 7.75195 22.248 1.875 15 1.875ZM20.6689 10.7139L14.499 19.2686C14.4128 19.3889 14.2991 19.487 14.1674 19.5546C14.0357 19.6223 13.8898 19.6576 13.7417 19.6576C13.5936 19.6576 13.4477 19.6223 13.316 19.5546C13.1843 19.487 13.0706 19.3889 12.9844 19.2686L9.33105 14.2061C9.21973 14.0508 9.33105 13.834 9.52148 13.834H10.8955C11.1943 13.834 11.4785 13.9775 11.6543 14.2236L13.7402 17.1182L18.3457 10.7314C18.5215 10.4883 18.8027 10.3418 19.1045 10.3418H20.4785C20.6689 10.3418 20.7803 10.5586 20.6689 10.7139V10.7139Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div class="tool-name">Lodash</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="experience-container">
+      <div class="experience-wrapper">
+        <div class="table-row">
+          <p class="table-row--left">2020 - Present</p>
+          <div class="table-row--right">
+            <p>Quintet Solutions Pvt Limited, Edappally, Ernakulam, India</p>
+            <p>(Software Engineer)</p>
+          </div>
+        </div>
+
+        <div class="table-row">
+          <p class="table-row--left">2019 - 2020</p>
+          <div class="table-row--right">
+            <p>Cubet TechnoLabs, Carnival Infopark, Ernakulam, India</p>
+            <p>(Junior Software Developer)</p>
+          </div>
+        </div>
+
+        <div class="table-row">
+          <p class="table-row--left">2018 - 2019</p>
+          <div class="table-row--right">
+            <p>Messengerify Labs, KINFRA Hi-Tech Park, Ernakulam, India</p>
+            <p>(Junior Web Developer)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Me section -->
+    <div class="contact-section-container">
+      <div class="contact-section-wrapper">
+        <form class="contact-form">
+          <p class="title">Fill out the form to Contact Me</p>
+          <div class="divide-form">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+          </div>
+          <input type="text" placeholder="Subject" />
+          <textarea
+            rows="7"
+            cols="50"
+            placeholder="Type your message here"
+          ></textarea>
+          <button class="action-btn align-self-fs mt-3">Send Message</button>
+        </form>
+        <div class="social-handles-container">
+          <p>Also find me on:</p>
+          <div class="social-handles">
+            <div class="gitlab">
+              <img src="./assets/logo_gitlab.svg" alt="logo_gitlab" />
+              <img src="./assets/logo_gitlab_black.svg" alt="logo_gitlab" />
+            </div>
+
+            <div class="github">
+              <img src="./assets/logo_github.svg" alt="logo_github" />
+              <img src="./assets/logo_github_black.svg" alt="logo_github" />
+            </div>
+
+            <div class="linkedin">
+              <img src="./assets/logo_linkedin.svg" alt="logo_linkedin" />
+              <img src="./assets/logo_linkedin_black.svg" alt="logo_linkedin" />
+            </div>
+
+            <div class="call">
+              <img src="./assets/logo_call.svg" alt="logo_call" />
+              <img src="./assets/logo_call_black.svg" alt="logo_call" />
+            </div>
+
+            <div class="gmail">
+              <img src="./assets/logo_gmail.svg" alt="logo_gmail" />
+              <img src="./assets/logo_gmail_black.svg" alt="logo_gmail" />
+            </div>
+
+            <div class="facebook">
+              <img src="./assets/logo_facebook.svg" alt="logo_facebook" />
+              <img src="./assets/logo_facebook_black.svg" alt="logo_facebook" />
+            </div>
+
+            <div class="instagram">
+              <img src="./assets/logo_instagram.svg" alt="logo_instagram" />
+              <img
+                src="./assets/logo_instagram_black.svg"
+                alt="logo_instagram"
+              />
+            </div>
+
+            <div class="whatsapp">
+              <img src="./assets/logo_whatsapp.svg" alt="logo_whatsapp" />
+              <img
+                src="./assets/logo_whatsapp_black.svg"
+                alt="logo_whatsapp"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
