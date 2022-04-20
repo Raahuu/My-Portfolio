@@ -1,0 +1,33 @@
+@keyframes waveEmoji {
+  0% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px $color-primary,
+      0 0 40px $color-primary,
+      0 0 50px $color-primary,
+      0 0 60px $color-primary,
+      0 0 70px $color-primary;
+  }
+  to {
+    text-shadow: 0 0 20px #fff,
+      0 0 30px lighten($color: $color-primary, $amount: 20),
+      0 0 40px lighten($color: $color-primary, $amount: 20),
+      0 0 50px lighten($color: $color-primary, $amount: 20),
+      0 0 60px lighten($color: $color-primary, $amount: 20),
+      0 0 70px lighten($color: $color-primary, $amount: 20),
+      0 0 80px lighten($color: $color-primary, $amount: 20);
+  }
+}

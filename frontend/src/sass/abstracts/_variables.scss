@@ -1,0 +1,23 @@
+$color-primary: #EA0F1E;
+$color-secondary: #949494;
+$color-background: #000;
+$color-placeholder: #939393;
+
+// Fonts
+$font-primary: 'Neuton', serif; // 'Cinzel', serif;
+
+// Determines the Margin on the sides of content
+$content-width-large: 75%;
+$content-width-normal: 85%;
+$content-width-medium: 90%;
+$content-width-small: 96%;
+$content-width-mobile: 96%;
+
+// Breakpoints
+$extreme: 87.5em;  /* =>  >1400 px */
+$x-large: 87.5em;  /* =>  1400 px  */
+$normal: 75em;     /* =>  1200 px  */
+$large: 62em;      /* =>  992 px   */
+$medium: 48em;     /* =>  768 px   */
+$small: 40em;      /* =>  640 px   */
+$mobile: 40em;     /* =>  640 px   */
